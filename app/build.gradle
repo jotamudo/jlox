@@ -34,7 +34,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'jlox.cli.jloxMain'
+    mainClass = 'com.craftinginterpreters.lox.Lox'
 }
 
 tasks.named('test') {
